@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff08b0ff">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:text="Name"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:text="Name"
+        android:padding="10dp"
+        android:textSize="25dp"
+        android:background="@drawable/round"
+        android:textColor="#ff08b0ff"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/text1"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text2"
+        android:text="BirthDay"
+        android:padding="10dp"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/text1"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dob"
+        android:text="BirthDay"
+        android:background="@drawable/round"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="25dp"
+        android:textColor="#ff08b0ff"
+        android:layout_alignTop="@+id/text2"
+        android:layout_alignStart="@+id/name" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text3"
+        android:text="Gender"
+        android:padding="10dp"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/text2"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gender"
+        android:text="Gender"
+        android:padding="10dp"
+        android:textColor="#ff08b0ff"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/round"
+        android:layout_alignTop="@+id/text3"
+        android:layout_alignStart="@+id/dob" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text4"
+        android:text="Email"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/text3"
+        android:layout_alignParentStart="true" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round"
+    android:text="Email"
+    android:id="@id/email"
+    android:padding="10dp"
+    android:textSize="25dp"
+    android:textColor="#ff08b0ff"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_alignBaseline="@+id/text4"
+    android:layout_alignBottom="@+id/text4"
+    android:layout_alignStart="@+id/dob" />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="City"
+    android:id="@+id/text5"
+    android:padding="10dp"
+    android:textSize="25dp"
+    android:textColor="#ffffff"
+    android:textStyle="bold"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="20dp"
+    android:layout_below="@+id/text4"
+    android:layout_alignEnd="@+id/text4" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City"
+        android:id="@+id/city"
+        android:padding="10dp"
+        android:textSize="25dp"
+        android:background="@drawable/round"
+        android:textColor="#ff08b0ff"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignTop="@+id/text5"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

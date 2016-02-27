@@ -1,0 +1,368 @@
+<resources>
+    <string name="app_name">Doctor</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_registration">Registration</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string-array name="cities">
+        <item>Kolkata</item>
+        <item>Mumbai</item>
+        <item>Delhi</item>
+        <item>Durgapur</item>
+        <item>Gugrat</item>
+        <item>Lucknow</item>
+        <item>Kanpur</item>
+        <item>Bangalore</item>
+        <item>Pune</item>
+        <item>Ahmedabad</item>
+    </string-array>
+    <string-array name="doctorcat">
+        <item>General Physician</item>
+        <item>Dental</item>
+        <item>Eye</item>
+        <item>Gynecologist</item>
+        <item>Neurologist</item>
+        <item>Skin Specialist</item>
+        <item>Gastroenterologist</item>
+        <item>Child Specialist</item>
+
+    </string-array>
+    <string-array name="genphy">
+        <item>Dr. Sanjoy Paramanik</item>
+        <item>Dr. P.K Maity</item>
+        <item>Dr. H.Mura</item>
+        <item>Dr. S.K Khanra</item>
+        <item>Dr. S.Majundar</item>
+        <item>Dr. Arup Kumar Mondal</item>
+        <item>Dr. Sumit Chakraborty</item>
+        <item>Dr. B. Halder</item>
+
+
+    </string-array>
+    <string-array name="genphyaddress">
+        <item>M.B.B.S,MD(GeneralPhysician)</item>
+        <item>M.B.B.S(Cal) M.D(Medicine) General Physician And Diabetologist</item>
+        <item>M.B.B.S(Cal) General Physician And NeuroPhysician</item>
+        <item>M.B.B.S(Cal) EX.IRMS .Retd. Sr.DMO(S.E.Rly)</item>
+        <item>M.B.B.S,M.D(Medicine)General Physician</item>
+        <item>M.B.B.S(Cal)(MDPGT)</item>
+        <item>M.B.B.S(Cal) D.G.O(Cal) General Physician And Orthopadecian</item>
+        <item>M.B.B.S General Physician </item>
+     </string-array>
+
+    <string-array name="Dental">
+
+        <item>Dr. Shivraj Dutta </item>
+        <item>Dr. Sonjoy Roy</item>
+    </string-array>
+    <string-array name="Dental_address">
+        <item>Dental Surgeon</item>
+        <item>B.D.S(D.S) Dental</item>
+    </string-array>
+    <string-array name="eye">
+        <item>Dr. Goutam Saha</item>
+        <item>Dr. Biswajit Chakraborty</item>
+    </string-array>
+    <string-array name="eye_details">
+        <item>M.S(Opths) Eye Specialist</item>
+        <item>M.B.B.S.,D.O Eye Specialist</item>
+    </string-array>
+       <string-array name="gyno">
+           <item>Dr. Himadri Nayek</item>
+           <item>Dr. Saurav Senapati</item>
+           <item>Dr. Mrs. B.Bera</item>
+           <item>Dr. Anup Mallick</item>
+       </string-array>
+     <string-array name="gyno_details">
+         <item>M.B.B.S., M.S(cal)Gynecologist</item>
+         <item>M.S(Gynae And O.B.S) Gynecologist</item>
+         <item>M.D(O.B.S And Gynae)Gynecologist</item>
+         <item>Gynecologist</item>
+     </string-array>
+    <string-array name="skin">
+      <item>Dr. Mrs. arachana Saha(Maity)</item>
+        <item>Dr. B.C Mahato</item>
+        <item>Dr. M. Patra</item>
+        <item>Dr. M.K Barman</item>
+        <item>Dr. Chittaranjan Bar</item>
+        <item>Dr. Pranab Roy</item>
+    </string-array>
+    <string-array name="skin_delails">
+        <item>M.B.B.S.,M.D(Dermatology) Skin Specialist</item>
+        <item>M.B.B.S.,M.D  Skin Specialist</item>
+        <item>M.B.B.S.,M.D(Cal)(Dermatology)Skin Specialist</item>
+        <item>M.B.B.S(Cal)M.O.W.B.H.S Skin And V.D Specialist</item>
+        <item>M.B.B.S(Cal),M.D(Cal)Skin Specialist</item>
+        <item>M.B.B.S(Cal)D.V.D(Cal)Skin Specialist</item>
+    </string-array>
+    <string-array name="neuro">
+        <item>Dr. Shila Mukherjee</item>
+        <item>Dr. Md. Firoz Alam</item>
+        <item>Dr. Debasis Panja</item>
+        <item>Dr. V.A RamaRaju</item>
+        <item>Dr. S.Mondal</item>
+        <item>Dr. Swapna Sinha </item>
+    </string-array>
+    <string-array name="neuro_details">
+        <item>M.B.B.S.,D.P.M ,M.D(Neuro-Psychologist)</item>
+        <item>M.B.B.S., M.D(Medicine)Neuro.</item>
+        <item>M.B.B.S(Cal)D.M.P Neuro Psychologist</item>
+        <item>M.B.B.S., M.D(PGDCG) Neuro Surgeon</item>
+        <item>M.B.B.S(Gold Medalist), M.S(Gold Medalist)Neuro Surgeon</item>
+        <item>M.B.B.S(Cal),D.N.B(Med),D.M(Neuro),D.N.B(Neuro) Consultant Neurologist</item>
+    </string-array>
+    <string-array name="gas">
+        <item>Dr. Amit Dey</item>
+        <item>Dr. S.Sahu</item>
+        <item>Dr. S.Mukherjee</item>
+        <item>Dr. M.Mandal</item>
+    </string-array>
+    <string-array name="gas_details">
+        <item>Gastroenterologist</item>
+        <item>M.B.B.S.,M.D(Medicine)Gastroenterologist</item>
+        <item>M.B.B.S.,M.R.C.P, B.N.B(Gastro) Gastro And Hepatologist</item>
+        <item>M.S Gastro.</item>
+    </string-array>
+    <string-array name="child">
+        <item>Dr. T.R Maity</item>
+        <item>Dr. A.Mataha</item>
+        <item>Dr. Mahasweta Chaudhuri</item>
+        <item>Dr. A.Sen</item>
+        <item>Dr. T.K Ghosh</item>
+        <item>Dr. S.K Hemram</item>
+        <item>Dr. Amitava Mallick</item>
+        <item>Dr. Aribondo Mahato</item>
+    </string-array>
+    <string-array name="child_details">
+        <item>M.B.B.S.,D.C.H Child Specialist</item>
+        <item>Child Specialist</item>
+        <item>M.B.B.S., D.N.B.C(Peadiatrics) Child Specialist</item>
+        <item>M.B.B.S.,D.C.H., Child Specialist</item>
+        <item>M.B.B.S.(Cal),D.C.H(Cal) Child Specialist</item>
+        <item>M.B.B.S.(Cal)(Peadiatrics) Child Specialist</item>
+        <item>M.B.B.S.,D.C.H.(Cal) Child Specialist</item>
+        <item>M.B.B.S.(Cal), M.D(Peadiatrics)Child Specialist</item>
+    </string-array>
+    <string-array name="Hname">
+        <item>Atul Medical </item>
+        <item>Adhikari Medical</item>
+        <item>Basu Medical</item>
+        <item>Damoodar Medical Store</item>
+        <item>Pappu Optics</item>
+        <item>Mansi Drug House</item>
+        <item>Sai Ram Medical</item>
+
+    </string-array>
+    <string-array name="Haddress">
+        <item>9333410813</item>
+        <item>__________</item>
+        <item>__________</item>
+        <item>__________</item>
+        <item>__________</item>
+        <item>__________</item>
+        <item>9832802455</item>
+    </string-array>
+    <string-array name="atul_medical_doctor">
+        <item>Dr. A sen</item>
+        <item>Dr. B. Halder</item>
+        <item>Dr. Md. Firoz Alam</item>
+        <item>Dr. S.Sahu</item>
+        <item>Dr. Himadri Nayek</item>
+    </string-array>
+    <string-array name="atul_spl">
+        <item>M.B.B.S.(D.C.H) Child Specialist </item>
+        <item>M.B.B.S. General Physician</item>
+        <item>M.B.B.S., M.D(Medicine) Neuro Psychologist</item>
+        <item>M.B.B.S., M.D(Medicine) Gastroenterologist</item>
+        <item>>M.B.B.S(Cal)Gynecologist</item>
+    </string-array>
+    <string-array name="atul_time">
+        <item>11 A.M - 1 P.M Thrusday</item>
+        <item>Tuesday And Thrusday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>5:50 P.M-7:00P.M Monday</item>
+    </string-array>
+    
+    <string-array name="adhakari_dr">
+    <item>Dr. S. Mondal</item>
+    <item>Dr. Swapan Sinha</item>
+    <item>Dr. Sumit Chakraborty</item>
+    <item>Dr. Arabinda Matato</item>
+    <item>Dr. Amitava Mallick</item>
+    <item>Dr. Pranab Roy</item>
+    <item>Dr. Dilip Kumar Giri</item>
+    </string-array>
+
+    <string-array name="adhakari_spl">
+        <item>M.B.B.S., M.S., F.A.A.G.I Neuro Surgeon</item>
+        <item>M.B.B.S(Cal),D.N.B(Med) Consultant Neurologist</item>
+        <item>M.B.B.S(Cal),D.G.O(Cal)GeneralPhysician And Orthopadecian </item>
+        <item>Child Specialist And Neurologist</item>
+        <item>M.B.B.S., D.C.H(Cal) Child Specialist</item>
+        <item>M.B.B.S(Cal), D.V.D(Cal) Skin Specialist</item>
+        <item>M.B.B.S. E.N.T</item>
+    </string-array>
+
+    <string-array name="adhakari_medical">'
+    <item>Monday</item>
+     <item>7:30 P.M-8:30 P.M Monday</item>
+     <item>8:30 P.M-9:30 P.M Thursday</item>
+     <item>8:00 P.M-9:00 P.M Monday And Thursday</item>
+      <item>12:30 P.M-1:30 P.M Wednesday</item>
+       <item>7:30 P.M-8:30 P.M Monday</item>
+        <item>Tuesday/</item>
+
+    </string-array>
+
+    <string-array name="basu_doctor">
+      <item>Dr. Saurav Senapati</item>
+      <item>Dr. S.Mukherjee</item>
+      <item>Dr. G.Bera</item>
+      <item>Dr. Debasis Panja</item>
+      <item>Dr. S.Majundar</item>
+      <item>Dr. T.K Ghosh</item>
+      <item>Dr. A.Sen</item>
+      <item>Dr. F.R Khan</item>
+      <item>Dr. M.K Barman</item>
+    </string-array>
+
+    <string-array name="basu_spl">
+        <item>M.S(Gynae And O.B.S) Gynecologist</item>
+        <item>M.B.B.S.,M.R.C.P Gastroenterologist</item>
+        <item>M.B.B.S.(Cal), M.S Orthopaedic Trauma Surgeon</item>
+        <item>M.B.B.S.(Cal),D.P.M Neuro Psychologist</item>
+        <item>M.B.B.S., M.D(Med) General Physician</item>
+        <item>M.B.B.S.(Cal), D.C.H(Cal) Child Specialist</item>
+        <item>M.B.B.S., D.C.H(Cal) Child Specialist</item>
+        <item>E.N.T</item>
+        <item>>M.B.B.S.(Cal), Skin Specialist</item>
+
+    </string-array>
+
+    <string-array name="basu_time">
+        <item>5:30 P.M-7:30 P.M Sunday</item>
+        <item> 6:00 P.M Friday</item>
+        <item>6:00 P.M- 8:00 P.M Sunday</item>
+        <item>9:00 A.M-12:00 P.M Sunday</item>
+        <item>10:00 A.M- 12:00 P.M Expect Sunday</item>
+        <item>6:00 P.M-7:00 P.M Saturday</item>
+        <item>5:00 P.M-7:30 P.M Monday</item>
+        <item>8:00 P.M-9:00 P.M Wednesday</item>
+        <item>Monday</item>
+    </string-array>#
+
+
+    <string-array name="damoodar_doc">
+        <item>Dr. Mrs. Arachana Saha(Maity)</item>
+        <item>Dr. Tr Maity</item>
+        <item>Dr. T.K Bhunia</item>
+        <item>Dr. Sanjoy Roy</item>
+        <item>Dr. Amit Dey </item>
+        <item>Dr. S.Paramanik</item>
+        <item>Dr. A.Mahato</item>
+        <item>Dr. B.C Mahato</item>
+        <item>Dr. Dilip Kumar Giri</item>
+        <item>Dr. K.Banerjee</item>
+        <item>Dr. Shivraj Dutta</item>
+        <item>Dr. Kausik Banerjee</item>
+        <item>Dr. M.Mandal</item>
+        <item>Dr. Shila Mukherjee</item>
+    </string-array>
+
+    <string-array name="damoodar_spl">
+        <item>M.B.B.S., M.D Skin Specialist</item>
+        <item>M.B.B.S., D.C.H Child Specialist</item>
+        <item>Orthopaedic</item>
+        <item>B.D.S(D.S) Dental</item>
+        <item>Gastroenterologist</item>
+        <item>M.B.B.S., M.D General Physician</item>
+        <item>Child Specialist</item>
+        <item>M.B.B.S., M.D Skin Specialist</item>
+        <item>E.N.T(M.S)</item>
+        <item>M.S(Ortho)</item>
+        <item>Dental Surgeon</item>
+        <item>M.B.B.S., M.S(Ortho) Orthopaedic Surgeon</item>
+        <item>M.S(G.S)</item>
+        <item>M.B.B.S.,D.P.M ,M.D(Neuro-Psychologist)</item>
+    </string-array>
+
+    <string-array name="damoodar_time">
+        <item>5:00 P.M - 7:00 P.M Wednesday</item>
+        <item>11:30 A.M Friday</item>
+        <item>6:00 P.M Sunday</item>
+        <item>10:00 A.M-1:00 P.M(Sunday And Thursday) And 6:00 P.M-9:00 P.M(Wednesday And Saturday)</item>
+        <item>5:30 2nd and 4th Sunday Of Every Month</item>
+        <item>5:30 P.M-6:30 P.M Monday and Friday</item>
+        <item>8:00 P.M Wednesday</item>
+        <item>8:00 A.M-10:00 A.M Thursday</item>
+        <item>7:00 P.M Saturday</item>
+        <item>8:00 P.M Saturday</item>
+        <item>5:30 P.M- 8:30 P.M Monday And Wednesday</item>
+        <item>8:00 P.M Saturday </item>
+        <item>6:00 P.M Sunday</item>
+        <item>Monday</item>
+    </string-array>
+    <string-array name="pappu_doctor">
+        <item>Dr. Goutam Saha</item>
+        <item>Dr. Biswajit Chakraborty</item>
+    </string-array>
+    <string-array name="pappu_spl">
+        <item>M.S(Opths) Eye Specialist</item>
+        <item>M.B.B.S.,D.O Eye Specialist</item>
+    </string-array>
+    <string-array name="psppu_time">
+       <item>6:30 P.M Friday</item>
+        <item>11:00 A.M Monday</item>
+    </string-array>
+    <string-array name="mansi_doctor">
+       <item>Dr. S.K Hemram</item>
+       <item>Dr. Chittaranjan Bar</item>
+       <item>Dr. Mrs. Baby Bera</item>
+       <item>Dr. Dilip Kumar Giri</item>
+        <item>Dr. Arup Kumar Mondal </item>
+        <item>Dr. V.A. RamaRaju</item>
+
+        <item>Dr. Amit Kumar Ranjan</item>
+    </string-array>
+
+    <string-array name="mansi_spl">
+        <item>M.B.B.S.(Cal)(Peadiatrics) Child Specialist</item>
+        <item>M.B.B.S(Cal) Skin Specialist</item>
+        <item>M.D(O.B.S And Gynae)Gynecologist</item>
+        <item>E.N.T Surgeon</item>
+        <item>M.B.B.S.(Cal),M.D General Physician</item>
+        <item>M.B.B.S., M.D(PGDCG) Neuro Surgeon</item>
+        <item>M.B.B.S.,M.S(Ortho)</item>
+
+    </string-array>
+
+    <string-array name="mansi_time">
+        <item>10:00 A.M- 11:00 A.M Friday And 8:00 P.M-9:00 P.M Thursday</item>
+        <item>7:00P.M-8:00P.M Thursday</item>
+        <item>6:00 P.M-7:00P.M Every Second Of Month</item>
+        <item>11:00 A.M-1:00 P.M(Mon,Tues,Thurs,Fri,Sat) And 7:00P.M-8:00 P.M(Mon,Tues,Fri)</item>
+        <item>8:00 P.M-9:00 P.M Monday</item>
+        <item>7:00 P.M-7:45 P.M(Monday And Thursday) And 8:30 P.M-9:00 P.M (Friday)</item>
+        <item>9:00 A.M-11:00 A.M Sunday</item>
+    </string-array>
+
+    <string-array name="sai_doc">
+
+
+    </string-array>
+    <string-array name="sai_spl">
+
+    </string-array>
+    <string-array name="sai_time">
+        
+    </string-array>
+    <string name="title_activity_doctor">Doctor</string>
+    <string name="title_activity_hospital">Hospital</string>
+    <string name="title_activity_doctor__details">Doctor_Details</string>
+    <string name="title_activity_about__doctor">About_Doctor</string>
+    <string name="title_activity_store">Store</string>
+    <string name="title_activity_show_map">ShowMap</string>
+</resources>
